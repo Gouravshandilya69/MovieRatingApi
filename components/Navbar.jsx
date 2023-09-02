@@ -12,7 +12,7 @@ function Navbar() {
             <div className=' w-7/12 mx-auto  flex items-center justify-between px-3'>
                 <div className='flex space-x-4'>
                     <div className='flex items-center'>
-                     <img src={logo} alt="logo" />
+                    <Link href="/"> <img src={logo} alt="logo" /></Link>
                     </div>
                     <div className=' flex space-x-3 items-center'>
                         <div className='relative  py-4 movies'>
@@ -21,19 +21,19 @@ function Navbar() {
                             <div className='movieslink absolute min-w-[140px] py-3 px-4 left-0 bg-white text-black rounded-sm flex flex-col gap-5 shadow-lg'>
                                 <div className='w-full  p-1 hover:bg-slate-100 transition-all'>
 
-                                    <Link href="#">Popular</Link>
+                                    <Link href="/movies/popular">Popular</Link>
                                 </div>
                                 <div className='w-full p-2'>
 
-                                    <Link href="#">Now playing</Link>
+                                    <Link href="/movies/now_playing">Now playing</Link>
                                 </div>
                                 <div className='w-full  p-2'>
 
-                                    <Link href="#">Upcoming</Link>
+                                    <Link href="/movies/upcoming">Upcoming</Link>
                                 </div>
                                 <div className='w-full p-2'>
 
-                                    <Link href="#">Top Rated</Link>
+                                    <Link href="/movies/top_rated">Top Rated</Link>
                                 </div>
 
 
@@ -45,19 +45,19 @@ function Navbar() {
                             <div className='tvshowslink absolute min-w-[140px] py-3 px-4 left-0  bg-white text-black rounded-sm  flex flex-col gap-5  shadow-lg'>
                         <div className='w-full  p-1'>
 
-                        <Link href="#">Popular</Link>
+                        <Link href="/tvShows/popular">Popular</Link>
                         </div>
                         <div className='w-full p-2'>
 
-                        <Link href="#">Aring Today</Link>
+                        <Link href="/tvShows/aring today">Aring Today</Link>
                         </div>
                         <div className='w-full  p-2'>
 
-                        <Link href="#">On Tv</Link>
+                        <Link href="/tvShows/ontv">On Tv</Link>
                         </div>
                         <div className='w-full p-2'>
 
-                        <Link href="#">Top Rated</Link>
+                        <Link href="/tvShows/toprated " >Top Rated</Link>
                         </div>
 
 

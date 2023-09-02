@@ -1,5 +1,6 @@
 import Navbar from '@/components/Navbar'
 import Showhero from '@/components/Showhero'
+import Cast from '@/components/cast'
 import React from 'react'
 
 function page() {
@@ -7,6 +8,7 @@ function page() {
     <div>
         <Navbar/>
         <Showhero/>
+        <Cast></Cast>
         </div>
   )
 }
