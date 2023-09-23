@@ -3,7 +3,6 @@ import {AiOutlineMenu,AiFillHeart,AiFillStar} from 'react-icons/ai'
 import {BsFillBookmarkFill,BsFillPlayFill} from 'react-icons/bs'
 
 function Showhero({showDetails}) {
- console.log(showDetails)
   return (
     <div className=' relative w-full h-[550px] bg-cover bg-center   overflow-hidden text-white'>
         <img src={`https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces${showDetails.backdrop_path}`} className='w-full h-full object-cover' alt="das" />

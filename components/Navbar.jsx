@@ -49,15 +49,15 @@ function Navbar() {
                         </div>
                         <div className='w-full p-2'>
 
-                        <Link href="/tvShows/aring today">Aring Today</Link>
+                        <Link href="/tvShows/airing_today">Aring Today</Link>
                         </div>
                         <div className='w-full  p-2'>
 
-                        <Link href="/tvShows/ontv">On Tv</Link>
+                        <Link href="/tvShows/on_the_air">On Tv</Link>
                         </div>
                         <div className='w-full p-2'>
 
-                        <Link href="/tvShows/toprated " >Top Rated</Link>
+                        <Link href="/tvShows/top_rated" >Top Rated</Link>
                         </div>
 
 
