@@ -2,7 +2,7 @@
 import Navbar from '@/components/Navbar'
 import Showhero from '@/components/Showhero'
 import Cast from '@/components/cast'
-import React, {useState,useContext, useEffect} from 'react'
+import React, {useState, useEffect} from 'react'
 import axios from 'axios'
 
 function  page({params}) {
