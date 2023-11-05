@@ -6,7 +6,7 @@ function Showhero({showDetails}) {
     console.log(showDetails)
     return (
     <div className=' relative w-full h-[550px] bg-cover bg-center   overflow-hidden text-white'>
-        <img src={showDetails.backdrop_path ? `https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces${showDetails.backdrop_path}` : ''} className='w-full h-full object-cover' alt="das" />
+        <img src={showDetails.backdrop_path ? `https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces${showDetails?.backdrop_path}` : ''} className='w-full h-full object-cover' alt="das" />
        <div className='w-full flex justify-center items-center h-full absolute top-0 left-0 bg-[#000000a7]'>
         <div className='w-10/12 flex h-full'>
             <div className='left flex items-center justify-center w-[30%]  h-full'>
