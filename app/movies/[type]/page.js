@@ -27,7 +27,7 @@ function page() {
   return (
     < >
       <Navbar></Navbar>
-      <div className=' w-[182.5vh] bg-gray-700 min-h-[100vh] flex justify-center  flex-wrap'>
+      <div className=' w-[100vw]  min-h-[100vh] flex justify-center  flex-wrap'>
         <Moviescards PopularData={newData}></Moviescards>
       </div>
     </>

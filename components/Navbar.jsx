@@ -12,7 +12,7 @@ function Navbar() {
             <div className=' w-7/12 mx-auto  flex items-center justify-between px-3'>
                 <div className='flex space-x-4'>
                     <div className='flex items-center'>
-                    <Link href="/"> <img src={logo} alt="logo" /></Link>
+                    <Link href="/"> MoviePoint</Link>
                     </div>
                     <div className=' flex space-x-3 items-center'>
                         <div className='relative  py-4 movies'>
@@ -78,7 +78,7 @@ function Navbar() {
                         </div>
                         <div className='flex gap-6 items-center'>
                             <Link href="#" className='font-semibold'>Login</Link>
-                            <Link href="#" className='font-semibold'>Join TMDB</Link>
+                            <Link href="#" className='font-semibold'>Join MoviePoint</Link>
                             <BsSearch fontWeight={800} fontSize={18} color='#01B4E4' />
 
                         </div>
